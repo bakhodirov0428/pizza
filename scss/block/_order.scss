@@ -1,0 +1,33 @@
+.order{
+  margin: 20px 30px;
+  width: 400px;
+  border: 2px solid darkorange;
+  background-color: darkorange;
+  &__text{
+    padding: 8px;
+  }
+  &__prise{
+    padding: 10px 150px;
+  }
+  &__xbnt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    margin-top: 5px;
+    margin-left: 350px;
+    &:hover>i{
+        display: block;
+    }
+}
+&__icon{
+    transition: 1.5s;
+    display: none;
+    color: #fff;
+    font-size: 14px;
+   
+}
+}

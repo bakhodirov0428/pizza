@@ -1,0 +1,114 @@
+.pizza {
+  background-color: darkorange;
+  margin: 50px 30px;
+  border: 2px solid black;
+  width: 400px;
+  height: 710px;
+}
+.pizza__title {
+  text-align: center;
+  padding: 20px 0;
+}
+.pizza__form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 15px;
+}
+.pizza__input {
+  padding: 10px;
+  background-color: blanchedalmond;
+}
+.pizza__option {
+  padding: 20px 10px;
+}
+.pizza__size {
+  padding: 20px 10px;
+}
+.pizza__check {
+  padding: 20px 10px;
+}
+.pizza__check__one {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.pizza__box__form {
+  display: flex;
+  gap: 50px;
+}
+.pizza__add {
+  padding: 5px;
+}
+.pizza__add__title {
+  padding: 5px;
+}
+.pizza__add__input {
+  padding: 10px;
+  display: flex;
+  gap: 110px;
+}
+.pizza__button {
+  margin-left: 120px;
+  padding: 10px 50px;
+  border: 1px solid green;
+  border-radius: 8px;
+}
+.pizza__button:active {
+  background-color: green;
+}
+
+.order {
+  margin: 20px 30px;
+  width: 400px;
+  border: 2px solid darkorange;
+  background-color: darkorange;
+}
+.order__text {
+  padding: 8px;
+}
+.order__prise {
+  padding: 10px 150px;
+}
+.order__xbnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  margin-top: 5px;
+  margin-left: 350px;
+}
+.order__xbnt:hover > i {
+  display: block;
+}
+.order__icon {
+  transition: 1.5s;
+  display: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+*,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mullish";
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*# sourceMappingURL=main.css.map */

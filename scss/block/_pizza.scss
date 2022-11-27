@@ -1,0 +1,59 @@
+.pizza{
+  background-color:darkorange;
+  margin: 50px 30px;
+  border: 2px solid black;
+  width: 400px;
+  height: 710px;
+  &__title{
+  text-align: center;
+  padding: 20px 0;
+  }
+  &__form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px ;
+    gap: 15px;
+  }
+  &__input{
+    padding: 10px ;
+    background-color:blanchedalmond;
+  }
+  &__option{
+    padding: 20px 10px;
+  }
+  &__size{
+    padding: 20px 10px;
+  }
+  &__check{
+    padding: 20px 10px;
+  }&__check__one{
+    padding: 10px;
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+  }
+  &__box__form{
+    display: flex;
+    gap: 50px;
+  }
+  &__add{
+    padding: 5px ;
+  }
+  &__add__title{
+    padding: 5px;
+  }
+&__add__input{
+  padding: 10px;
+  display: flex;
+  gap: 110px;
+}
+&__button{
+  margin-left: 120px;
+  padding: 10px 50px;
+  border: 1px solid green;
+  border-radius: 8px;
+}
+&__button:active{
+  background-color: green;
+}
+}

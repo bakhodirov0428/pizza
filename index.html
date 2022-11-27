@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <main>
+    <section class="pizza">
+      <h1 class="pizza__title">Pizza order</h1>
+      <form action=""  class="pizza__form">
+        <input class="pizza__input" type="text"  placeholder="User name"  id="user">
+        <input class="pizza__input" type="text"  placeholder="Phone number"  id="number">
+        <input class="pizza__input" type="text"  placeholder="User address"  id="address">
+      </form>
+      <div class="pizza__option">
+       <label for="">Dough thickness:
+        <select class="pizza__selekt" id="selekt"> 
+          <option data-price="0" value="None">None</option>
+          <option data-price="10" value="Thin">Thin</option>
+          <option data-price="12" value="Medium">Medium</option>
+          <option data-price="15" value="Thick">Thick</option>
+        </select>
+       </label>
+      </div>
+      <div class="pizza__size">
+      <label for="">
+        Size:
+        <input data-price="10" data-size="25sm" value="25" type="radio" name="size" id="small-size"
+        class="pizza__wrapper__input">
+    <label for="small-size" class="pizza-wrapper__label">25sm</label>
+
+    <input data-price="12" data-size="30sm" value="30" type="radio" name="size" id="normal-size"
+        class="pizza__wrapper__input">
+    <label for="normal-size" class="pizza-wrapper__label">30sm</label>
+
+    <input data-price="15" data-size="35sm" value="35" type="radio" name="size" id="big-size"
+        class="pizza__wrapper__input">
+    <label for="big-size" class="pizza-wrapper__label">35sm</label>
+      </label>
+      </div>
+      <div class="pizza__check">
+        <h2 class="pizza__check__title">on Pizza:</h2>
+      <form action="" class="pizza__box__form">
+        <div class="pizza__check__one">
+          <label for="">
+            <input  data-price="5" id="tomato" type="checkbox" class="box">
+            Tomato
+          </label>
+          <label for="">
+            <input  data-price="5" id="turkey meat" type="checkbox" class="box">
+            Turkey meat
+          </label>
+          <label for="">
+            <input  data-price="5" id="Olive" type="checkbox" class="box">
+            Olive
+          </label>
+        </div>
+       <div class="pizza__check__one">
+        <label for="">
+          <input  data-price="5" id="pickled cucumber" type="checkbox" class="box">
+          Pickled cucumber
+        </label>
+        <label  for="">
+          <input data-price="5" id="mushroom" type="checkbox" class="box">
+          Mushroom
+        </label>
+        <label for="">
+          <input  data-price="5" id="horse meat" type="checkbox" class="box">
+          Horse meat
+        </label>
+       </div>
+      </form>
+      </div>
+      <div class="pizza__add">
+        <h3 class="pizza__add__title">Add:</h3>
+      <div class="pizza__add__input">
+        <label for="">
+          <input data-price="3" type="checkbox" id="pepper" name="" class="box1">
+          Pepper
+        </label>
+        <label for="">
+          <input data-price="3" type="checkbox" id="sasusages" name="" class="box1">
+          Sasusages
+        </label>
+      </div>
+      </div>
+      <button class="pizza__button" type="submit">Save</button>
+    </section>
+    <section class="order">
+    <!-- <div class="order__xbnt"><i class="fa-solid fa-xmark   order__icon"></i></div>
+    <h1 class="order__title">Order: 1</h1>
+    <p class="order__text">Name:Palonchiev Palonchi</p>
+    <p class="order__text">Phone:+99890 810 04 28</p>
+    <p class="order__text">Address:Chilonzorvt.Alhorazmiy,lutfiy kochasi -56</p>
+    <hr>
+    <p class="order__text">Dough thickness:Medium</p>
+    <p class="order__text">Size: 25sm</p>
+    <p class="order__text">on Pizza:Tomato Pickled cucumber</p>
+    <p class="order__text">Add:Pipper</p>
+    <hr>
+    <p class="order__prise">Total: $40</p> -->
+    </section>
+  </main>
+  <script src="./main.js"></script>
+</body>
+</html>
